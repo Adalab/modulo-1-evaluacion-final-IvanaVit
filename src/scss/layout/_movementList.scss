@@ -6,13 +6,15 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 40px;
-    padding: 40px 15px 49px;
+    gap: 50px;
+    padding: 29px 15px 45px;
     @media (min-width: 768px){
-        padding: 49px 29px 79px 49px;
+        height: 410px;
+        padding: 49px 29px 69px 49px;
     }
     @media (min-width: 1200px) {
-        padding: 48px 81px 76px;
+        height: 427px;
+        padding: 48px 81px 66px 80px;
     }
 
     & h3 {
@@ -21,6 +23,8 @@
         line-height: 1.5;
         color:$color-black;
         text-align: center;
+        // & h3::first-line {
+        //     }intento de dividir líneas y no sale
         @media (min-width: 768px) {
             font-size: 2.8rem;
             line-height: 1.6;

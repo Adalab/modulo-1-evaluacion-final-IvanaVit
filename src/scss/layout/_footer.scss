@@ -1,7 +1,69 @@
 .footer {
+    height:465px;
+    background-color: $color-greyish-brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    @media (min-width: 768px){
+        padding: 56px 69px 34px 159px;
+        height: 240px;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    @media (min-width: 1200px){
+        
 
+    }
+
+
+    &__menu {
+        text-align: center;
+        &--list {
+            list-style: none;
+        }
+        a {
+            text-decoration: none;
+            color: $color-white;
+            text-transform: uppercase;
+            font-size: 1.6rem;
+            line-height: 1.9;
+            font-family: $font-main;
+        }
+        @media (min-width: 768px) {
+            text-align: left;
+        }
+    }
+
+    &__ico {
+        
+        width: 45px;
+        height: 45px;
+        background-color:$color-white;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        top: 0;
+        left: 50%;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__ch {
+        color: $color-white;
+        font-size: 1.4rem;
+        line-height: 2.15;
+        font-family: $font-main;
+        text-align: center;
+
+        span {
+            color:$color-bright-orange;
+        }
+    }
+    
 }
 
-@media (min-width: 768px) {
-}
-
+// @media (min-width: 1200px)// 
