@@ -1,4 +1,35 @@
-.header {
+header{
+    width: 37px;
+    height: 34px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: $color-bright-orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    @media (min-width: 768px) {
+        .header{
+            width: 42;
+            height: 44px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .header{
+            width: 45;
+            height: 46px;
+        }
+    }
+
+
+        
+
+
   
-}
   
