@@ -1,3 +1,68 @@
+.sectionList {
+    height: 624px;
+    background-color: $color-white-two;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    padding: 40px 15px 49px;
+    @media (min-width: 768px){
+        padding: 49px 29px 79px 49px;
+    }
+    @media (min-width: 1200px) {
+        padding: 48px 81px 76px;
+    }
 
-@media (min-width: 768px) {
+    & h3 {
+        font-family: $font-title;
+        font-size: 2rem;
+        line-height: 1.5;
+        color:$color-black;
+        text-align: center;
+        @media (min-width: 768px) {
+            font-size: 2.8rem;
+            line-height: 1.6;
+        }
+        @media (min-width: 1200px) {
+            font-size: 3.2rem;
+            line-height: 1.4;
+        }
+    }
+
+    &__article {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 40px;
+        @media (min-width: 768px) {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 30px;
+        }
+    }
+
+    &__button {
+        width: 184px;
+        height: 45px;
+        background-color: $color-bright-orange;
+        border-radius: 23px;
+        text-align: center;
+        a {
+        font-family: $font-main;
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 2.25;
+        color:$color-white;
+        text-decoration: none;  
+        }
+    }
+
 }
+
+
+
+
+
+
