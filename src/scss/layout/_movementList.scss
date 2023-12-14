@@ -10,7 +10,7 @@
     padding: 29px 15px 45px;
     @media (min-width: 768px){
         height: 410px;
-        padding: 49px 29px 69px 49px;
+        padding: 49px 49px 69px 49px;
     }
     @media (min-width: 1200px) {
         height: 427px;
@@ -23,11 +23,11 @@
         line-height: 1.5;
         color:$color-black;
         text-align: center;
-        // & h3::first-line {
-        //     }intento de dividir líneas y no sale
+        width: 18ch;
         @media (min-width: 768px) {
             font-size: 2.8rem;
             line-height: 1.6;
+            width: 28ch;
         }
         @media (min-width: 1200px) {
             font-size: 3.2rem;

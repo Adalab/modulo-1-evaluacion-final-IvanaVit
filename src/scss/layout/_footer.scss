@@ -17,6 +17,20 @@
         padding: 50px 370px 40px;
     }
 
+    &__ico {
+        width: 45px;
+        height: 45px;
+        background-color:$color-white;
+        transform: translate(-50%,-50%);
+        position: absolute;
+        top: 0;
+        left: 50%;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     &__menu {
         text-align: center;
         &--list {
@@ -33,21 +47,6 @@
         @media (min-width: 768px) {
             text-align: left;
         }
-    }
-
-    &__ico {
-        
-        width: 45px;
-        height: 45px;
-        background-color:$color-white;
-        transform: translate(-50%,-50%);
-        position: absolute;
-        top: 0;
-        left: 50%;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     &__ch {
