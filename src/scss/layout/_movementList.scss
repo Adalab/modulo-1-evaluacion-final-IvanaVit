@@ -59,7 +59,11 @@
         font-size: 2rem;
         line-height: 2.25;
         color:$color-white;
-        text-decoration: none;  
+        text-decoration: none;
+        &:hover {
+            color: $color-greyish-brown;
+            transition: color 1s;
+        }  
         }
     }
 
